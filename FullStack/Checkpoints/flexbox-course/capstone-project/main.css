@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.menu-bar{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    background-color: aqua;
+    
+}
+
+.menu-bar-title-logo{
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+}
+
+.menu-bar-links{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    
+}
+.menu-bar-left-links {
+    display: flex;
+    
+}
+.menu-bar-right-links {
+    display: flex;
+   
+
+}
+.menu-bar-links a{
+    background-color: blueviolet;
+    
+}
+
